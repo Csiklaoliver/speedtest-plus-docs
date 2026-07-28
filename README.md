@@ -27,14 +27,14 @@ Use **DISABLE ALL** to return new tests to normal measured values. Saved profile
 - Custom download, upload, ping, jitter, and packet-loss values
 - Custom ISP, server provider, and server location
 - Three named profiles
-- Five dark themes
+- Ten persistent dark themes
 - Matching local values across the test screen, saved results, history, comparison cards, sharing, and CSV
 - Provider-aware feedback questions
 - Signed update checks from the app
 
 ## Local and official data
 
-Custom values change the local presentation and local saved-result views. The underlying official test traffic and remote report remain separate measured data.
+Custom values change the app's customized presentation and saved-result/history representation, including account-history storage where enabled. The underlying official test traffic and official remote report remain separate measured data.
 
 Do not present customized values as independently measured network performance. Use them only for personal testing, UI development, or clearly identified demonstrations.
 
