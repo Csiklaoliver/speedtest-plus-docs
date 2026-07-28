@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "channel": "stable",
   "packageName": "org.zwanoo.android.speedtest",
-  "versionCode": 258533,
-  "versionName": "1.2.0",
-  "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.2.0/SpeedtestPlus.apk",
-  "sha256": "9966ce29a35da8cf35a067ace405092bb2cdcdcd51c4e5510ce1de2d2decedd3",
-  "sizeBytes": 29839375,
-  "notes": "Hides the original vendor update prompt while keeping Speedtest+ OTA updates active."
+  "versionCode": 258534,
+  "versionName": "1.3.0",
+  "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.3.0/SpeedtestPlus.apk",
+  "sha256": "8265da70d537bbbf6ca426e95b5ab0576bc75946c9b885e5d379743e2b87740f",
+  "sizeBytes": 29843554,
+  "notes": "Adds Deep Ocean, Neon Cyber, Ruby Noir, Arctic Night, and Solar Gold themes, plus improved dark-dialog readability."
 }

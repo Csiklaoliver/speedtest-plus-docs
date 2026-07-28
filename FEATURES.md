@@ -53,8 +53,13 @@ The available themes are:
 - Midnight Violet
 - Emerald
 - Sunset
+- Deep Ocean
+- Neon Cyber
+- Ruby Noir
+- Arctic Night
+- Solar Gold
 
-The selected theme is remembered after the app closes. If a test is running, a new theme is saved and applied the next time Speedtest+ opens.
+The selected theme is remembered after the app closes and survives in-place updates. If a test is running, a new theme is saved and applied the next time Speedtest+ opens.
 
 ## Active badge and guide
 
@@ -77,7 +82,7 @@ Old saved tests are not changed.
 
 ## What remains measured
 
-The official network test, transferred data, remote submission, advertisements, and public Speedtest report remain measured and separate from the customized local presentation.
+The official network test, transferred data, official remote submission, advertisements, and public Speedtest report remain measured and separate from the customized saved-result/history representation. Signed-in account history may store that customized representation where enabled, but it does not replace the official measured test report.
 
 ## Update prompts
 
