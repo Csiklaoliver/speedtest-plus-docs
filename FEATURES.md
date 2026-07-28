@@ -58,7 +58,7 @@ The selected theme is remembered after the app closes. If a test is running, a n
 
 ## Active badge and guide
 
-The provider row shows `CUSTOM - N` while overrides are active. `N` counts the active metric and identity categories.
+The provider row shows `CUSTOM - N` only while overrides are active. It stays hidden when the active count is zero. `N` counts the active metric and identity categories.
 
 The info button reopens the guide at any time. The guide explains blank fields, exact values, ranges, profiles, applying values, and disabling overrides.
 

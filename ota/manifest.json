@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "channel": "stable",
   "packageName": "org.zwanoo.android.speedtest",
-  "versionCode": 258531,
-  "versionName": "7.0.7-speedtestplus.1",
-  "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.0.0/SpeedtestPlus.apk",
-  "sha256": "fba0fe7605e93aa7ef6bf4c0dbdb38217f80cb8b16fd97257c3d5aace3dee4e0",
+  "versionCode": 258532,
+  "versionName": "1.1.0",
+  "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.1.0/SpeedtestPlus.apk",
+  "sha256": "a310165d7a32434b7cd99c2aff3ab7d0089e5f21fd6caf5a5208cec256553d31",
   "sizeBytes": 29839375,
-  "notes": "Current stable version."
+  "notes": "Hides the inactive CUSTOM badge when no overrides are enabled."
 }
