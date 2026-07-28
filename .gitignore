@@ -1,0 +1,57 @@
+# Android packages and compiled artifacts
+*.apk
+*.apks
+*.aab
+*.xapk
+*.dex
+*.odex
+*.vdex
+*.arsc
+*.so
+
+# Decompiled or extracted application trees
+apktool.yml
+smali/
+smali_classes*/
+original/
+unknown/
+decoded/
+decompiled/
+
+# Signing keys, certificates, and credentials
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.key
+*.pem
+*.mobileprovision
+keystore.properties
+signing.properties
+secrets.*
+.env
+.env.*
+!.env.example
+
+# Track public OTA manifests, but upload APKs only as Release assets
+ota/*.production.json
+ota/*.signed.json
+!ota/example.json
+!ota/manifest.json
+
+# Build and tool output
+build/
+dist/
+out/
+tmp/
+temp/
+*.log
+*.idsig
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
