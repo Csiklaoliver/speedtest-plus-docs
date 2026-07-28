@@ -24,7 +24,7 @@ An update is accepted only when:
 - the download matches the published size and SHA-256
 - the user approves Android's installation prompt
 
-The current baseline uses version code `258532`. The next OTA build must use `258533` or greater.
+The current baseline uses version code `258533`. The next OTA build must use `258534` or greater.
 
 ## Publishing an update
 
@@ -46,9 +46,9 @@ Release sequence:
 Example Release upload:
 
 ```powershell
-gh release create v1.2.0 SpeedtestPlus.apk `
+gh release create v1.3.0 SpeedtestPlus.apk `
   --repo Csiklaoliver/speedtest-plus-docs `
-  --title "Speedtest+ 1.2" `
+  --title "Speedtest+ 1.3" `
   --notes "Signed update."
 ```
 
@@ -83,9 +83,9 @@ Example:
   "schemaVersion": 1,
   "channel": "stable",
   "packageName": "org.zwanoo.android.speedtest",
-  "versionCode": 258533,
-  "versionName": "1.2.0",
-  "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.2.0/SpeedtestPlus.apk",
+  "versionCode": 258534,
+  "versionName": "1.3.0",
+  "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.3.0/SpeedtestPlus.apk",
   "sha256": "replace-with-the-lowercase-sha256",
   "sizeBytes": 12345678,
   "notes": "Small fixes and improvements."

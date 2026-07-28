@@ -79,6 +79,10 @@ Old saved tests are not changed.
 
 The official network test, transferred data, remote submission, advertisements, and public Speedtest report remain measured and separate from the customized local presentation.
 
+## Update prompts
+
+The original vendor update prompt is hidden so it cannot direct this customized build to an incompatible official release. Speedtest+ OTA remains active under **Updates** in **Speedtest+ Controls** and continues to verify each download before opening Android's update screen.
+
 ## Troubleshooting
 
 **A value did not change**
