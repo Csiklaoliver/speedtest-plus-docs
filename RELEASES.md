@@ -1,5 +1,21 @@
 # Releases and updates
 
+## Speedtest+ 1.3.3
+
+This compatibility and presentation release:
+
+- removes banner and completed-result native ads
+- collapses the former native-ad placeholder so no blank panel remains
+- restores the complete GO-to-Connecting and dial-opening animation
+- keeps the intentionally fixed 1k gauge and clamps only its needle/fill
+- keeps the speed mode icon hidden until a real or custom value is ready
+- checks for updates silently in the background when the main screen resumes
+- throttles automatic checks to once per hour and prompts only for a newer verified build
+- removes the Video screen's premature autoplay race
+- uses a real single-rendition 720p H.264 Video test to avoid the adaptive-HLS crash in the bundled ExoPlayer on newer Android versions
+- preserves active controls, profiles, themes, and saved settings during the in-place update
+- retains Android 7.0+ support and 16 KB page alignment
+
 ## Speedtest+ 1.3.2
 
 This maintenance release fixes the remaining test-start and Video issues:
@@ -50,7 +66,7 @@ An update is accepted only when:
 - the download matches the published size and SHA-256
 - the user approves Android's installation prompt
 
-The current baseline uses version code `258536`. The next OTA build must use `258537` or greater.
+The current baseline uses version code `258537`. The next OTA build must use `258538` or greater.
 
 ## Publishing an update
 
@@ -109,7 +125,7 @@ Example:
   "schemaVersion": 1,
   "channel": "stable",
   "packageName": "org.zwanoo.android.speedtest",
-  "versionCode": 258537,
+  "versionCode": 258538,
   "versionName": "1.4.0",
   "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.4.0/SpeedtestPlus.apk",
   "sha256": "replace-with-the-lowercase-sha256",

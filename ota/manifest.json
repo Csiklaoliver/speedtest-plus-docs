@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "channel": "stable",
   "packageName": "org.zwanoo.android.speedtest",
-  "versionCode": 258536,
-  "versionName": "1.3.2",
-  "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.3.2/SpeedtestPlus.apk",
-  "sha256": "0bdada9377c68f83ac7a01229282fe2a351bcd2ecea5eb6c82b9328b3be22b20",
+  "versionCode": 258537,
+  "versionName": "1.3.3",
+  "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.3.3/SpeedtestPlus.apk?download=1",
+  "sha256": "1844169d77248de0babca2ee2aecb4b292a86094241ea2d933f368216b1e53b2",
   "sizeBytes": 29843554,
-  "notes": "Preserves the fixed 1k gauge, restores the GO-to-Connecting animation, and restores Video testing with the SDK's bundled fallback when normal configuration is absent."
+  "notes": "Removes ads and their empty space, restores the full test-opening animation on the fixed 1k gauge, adds silent background update checks, and stabilizes Video testing with a real 720p H.264 compatibility stream."
 }
