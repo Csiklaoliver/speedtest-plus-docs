@@ -101,3 +101,15 @@ The published version code is not higher than the installed version. This is exp
 **Android blocks an update**
 
 Allow this app to install unknown apps when Android requests it, then retry. Android always controls the final installation confirmation.
+
+**A manually selected server does not connect**
+
+Open the provider drawer, tap **Change Test Server**, and choose another nearby server. The server list and manual selection path are supported, but each listed host is operated independently and an individual host can be offline or reject a connection.
+
+**The Video test fails**
+
+Retry on a physical device after updating Android System WebView and the device's media components. Speedtest+ includes a safer HLS transition guard and prefers widely supported H.264 video, but the vendor Video test still depends on its remote service, app integrity checks, and a compatible hardware/media decoder. It may remain unavailable on emulators or on devices rejected by that service; the failure is reported without crashing the app.
+
+## Compatibility
+
+Speedtest+ supports Android 7.0 and newer on 64-bit ARM (`arm64-v8a`) devices. The APK is aligned for Android devices using 16 KB memory pages. The original test engine does not ship 32-bit ARM or x86 native libraries, so those architectures cannot be added safely by the modification layer.
