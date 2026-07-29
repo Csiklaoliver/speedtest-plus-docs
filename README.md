@@ -36,7 +36,8 @@ Use **DISABLE ALL** to return new tests to normal measured values. Saved profile
 - Custom ISP, server provider, and server location
 - Three named profiles
 - Ten persistent dark themes
-- Stable one-value-per-test speed overrides and high-speed gauge scaling
+- Stable one-value-per-test speed overrides on the fixed 1k gauge
+- Restored GO-to-Connecting animation and Video-test fallback
 - Matching local values across the test screen, saved results, history, comparison cards, sharing, and CSV
 - Provider-aware feedback questions
 - Signed update checks from the app

@@ -108,7 +108,7 @@ Open the provider drawer, tap **Change Test Server**, and choose another nearby 
 
 **The Video test fails**
 
-Retry on a physical device after updating Android System WebView and the device's media components. Speedtest+ includes a safer HLS transition guard and prefers widely supported H.264 video, but the vendor Video test still depends on its remote service, app integrity checks, and a compatible hardware/media decoder. It may remain unavailable on emulators or on devices rejected by that service; the failure is reported without crashing the app.
+Retry after checking the connection and updating the device's media components. Speedtest+ first uses the normal service-provided Video configuration. If that configuration is absent, version 1.3.2 and newer use the Video SDK's bundled production fallback. Playback still requires access to the remote Video asset and a compatible H.264 decoder; failures remain non-fatal.
 
 ## Compatibility
 
