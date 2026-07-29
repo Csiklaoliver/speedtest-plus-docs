@@ -1,5 +1,18 @@
 # Releases and updates
 
+## Speedtest+ 1.3.2
+
+This maintenance release fixes the remaining test-start and Video issues:
+
+- preserves the selected fixed 1k gauge instead of expanding it for custom values above 1,000 Mbps
+- safely clamps the gauge needle and fill while still showing the exact larger custom value
+- restores the animated GO-to-Connecting transition before the testing layout opens
+- restores Video tests when the normal service supplies no Video configuration by using the Video SDK's bundled production fallback
+- keeps normal service-provided Video configuration as the first choice
+- completes adaptive and fixed Video stages and opens the Video result screen
+- preserves active controls, profiles, themes, and saved settings during the in-place update
+- retains Android 7.0+ support and 16 KB page alignment
+
 ## Speedtest+ 1.3.1
 
 This maintenance release focuses on follower-reported test-screen and compatibility bugs:
@@ -37,7 +50,7 @@ An update is accepted only when:
 - the download matches the published size and SHA-256
 - the user approves Android's installation prompt
 
-The current baseline uses version code `258535`. The next OTA build must use `258536` or greater.
+The current baseline uses version code `258536`. The next OTA build must use `258537` or greater.
 
 ## Publishing an update
 
@@ -96,7 +109,7 @@ Example:
   "schemaVersion": 1,
   "channel": "stable",
   "packageName": "org.zwanoo.android.speedtest",
-  "versionCode": 258535,
+  "versionCode": 258537,
   "versionName": "1.4.0",
   "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.4.0/SpeedtestPlus.apk",
   "sha256": "replace-with-the-lowercase-sha256",
