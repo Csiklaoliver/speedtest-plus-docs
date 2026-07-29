@@ -4,6 +4,14 @@ Speedtest+ is an unofficial Android test build for personal demonstrations and U
 
 It is not affiliated with or endorsed by Ookla.
 
+## Device support
+
+- Android 7.0 or newer
+- 64-bit ARM (`arm64-v8a`) phone or tablet
+- Android 15/16 compatible, including 16 KB memory-page devices
+
+The original test engine does not include 32-bit ARM or x86 native libraries, so those devices are not supported by this build.
+
 ## Start here
 
 - [Download SpeedtestPlus.apk](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/latest/download/SpeedtestPlus.apk)
@@ -28,6 +36,7 @@ Use **DISABLE ALL** to return new tests to normal measured values. Saved profile
 - Custom ISP, server provider, and server location
 - Three named profiles
 - Ten persistent dark themes
+- Stable one-value-per-test speed overrides and high-speed gauge scaling
 - Matching local values across the test screen, saved results, history, comparison cards, sharing, and CSV
 - Provider-aware feedback questions
 - Signed update checks from the app

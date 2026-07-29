@@ -1,5 +1,18 @@
 # Releases and updates
 
+## Speedtest+ 1.3.1
+
+This maintenance release focuses on follower-reported test-screen and compatibility bugs:
+
+- hides the value icon, unit, and `0.00` placeholder until the first real/custom speed is ready
+- finalizes one custom speed target per direction so the displayed value no longer jumps during a test
+- expands the gauge scale for custom values above 1,000 Mbps
+- hardens HLS video transitions and prefers broadly supported H.264 playback
+- keeps Video failures non-fatal and provides useful device troubleshooting
+- verifies manual server selection and a full measured test against an alternate server
+- preserves the unmodified measured path when all controls are disabled
+- retains Android 7.0+ support and 16 KB page alignment for current Android devices
+
 ## For users
 
 Install the first build from the [latest GitHub Release](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/latest). After that:
@@ -24,7 +37,7 @@ An update is accepted only when:
 - the download matches the published size and SHA-256
 - the user approves Android's installation prompt
 
-The current baseline uses version code `258534`. The next OTA build must use `258535` or greater.
+The current baseline uses version code `258535`. The next OTA build must use `258536` or greater.
 
 ## Publishing an update
 
