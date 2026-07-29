@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "channel": "stable",
   "packageName": "org.zwanoo.android.speedtest",
-  "versionCode": 258535,
+  "versionCode": 258538,
   "versionName": "1.4.0",
   "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.4.0/SpeedtestPlus.apk",
   "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",

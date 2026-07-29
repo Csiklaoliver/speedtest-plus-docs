@@ -82,11 +82,19 @@ Old saved tests are not changed.
 
 ## What remains measured
 
-The official network test, transferred data, official remote submission, advertisements, and public Speedtest report remain measured and separate from the customized saved-result/history representation. Signed-in account history may store that customized representation where enabled, but it does not replace the official measured test report.
+The official network test, transferred data, official remote submission, and public Speedtest report remain measured and separate from the customized saved-result/history representation. Signed-in account history may store that customized representation where enabled, but it does not replace the official measured test report.
 
-## Update prompts
+## Ads
 
-The original vendor update prompt is hidden so it cannot direct this customized build to an incompatible official release. Speedtest+ OTA remains active under **Updates** in **Speedtest+ Controls** and continues to verify each download before opening Android's update screen.
+Speedtest+ disables banner and completed-result native-ad loading. Their layout containers are collapsed, so no blank ad card or close button remains.
+
+## Update checks
+
+The original vendor update prompt is hidden so it cannot direct this customized build to an incompatible official release.
+
+Speedtest+ checks its signed OTA manifest quietly when the main screen resumes, at most once per hour. It shows no message when the installed build is current or a background check cannot complete. A prompt appears only when a newer verified build is available.
+
+The manual **CHECK FOR UPDATES** control remains available and continues to verify each download before opening Android's update screen.
 
 ## Troubleshooting
 
@@ -108,7 +116,9 @@ Open the provider drawer, tap **Change Test Server**, and choose another nearby 
 
 **The Video test fails**
 
-Retry after checking the connection and updating the device's media components. Speedtest+ first uses the normal service-provided Video configuration. If that configuration is absent, version 1.3.2 and newer use the Video SDK's bundled production fallback. Playback still requires access to the remote Video asset and a compatible H.264 decoder; failures remain non-fatal.
+Version 1.3.3 removes premature Video autoplay and uses the SDK's production 720p H.264 compatibility stream. This avoids the adaptive-HLS rendition-switch crash in the bundled ExoPlayer on newer Android versions while retaining real playback, load-time, and buffering measurements.
+
+Playback still requires internet access to the Video asset and an H.264 decoder. If it cannot start, update the device's media components and retry on another network. Failures remain non-fatal.
 
 ## Compatibility
 

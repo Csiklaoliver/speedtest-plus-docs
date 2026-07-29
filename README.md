@@ -37,10 +37,12 @@ Use **DISABLE ALL** to return new tests to normal measured values. Saved profile
 - Three named profiles
 - Ten persistent dark themes
 - Stable one-value-per-test speed overrides on the fixed 1k gauge
-- Restored GO-to-Connecting animation and Video-test fallback
+- Full GO-to-Connecting and dial-opening animation
+- Stable real 720p H.264 Video testing on Android 7–16
+- No banner or completed-result native ads
 - Matching local values across the test screen, saved results, history, comparison cards, sharing, and CSV
 - Provider-aware feedback questions
-- Signed update checks from the app
+- Silent signed update checks that prompt only for a newer verified build
 
 ## Local and official data
 
@@ -50,6 +52,8 @@ Do not present customized values as independently measured network performance. 
 
 ## Updates
 
-The app checks a small public manifest and offers only builds with a higher Android version code. It verifies the download before opening Android's standard update screen. Android still requires user confirmation, but the existing app does not need to be uninstalled and local settings are preserved.
+The app checks a small public manifest quietly in the background when the main screen resumes, with a one-hour throttle. It shows nothing when the installed build is current or a background check cannot complete. When a newer build exists, it shows the update prompt, verifies the download, and opens Android's standard update screen.
+
+Android still requires user confirmation. The existing app does not need to be uninstalled, and local settings are preserved.
 
 The APK is published as a GitHub Release asset. APKs, signing secrets, and credentials are never committed to Git history.
