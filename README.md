@@ -1,5 +1,7 @@
 # Speedtest+
 
+[![Opt-in installations reported](https://speedtest.oliverprojects.tech/api/badges/installations.svg)](https://speedtest.oliverprojects.tech/)
+
 Speedtest+ is an unofficial Android test build for personal demonstrations and UI testing. It adds local result controls, profiles, themes, consistent saved results, and user-confirmed app updates.
 
 It is not affiliated with or endorsed by Ookla.
@@ -57,3 +59,14 @@ The app checks a small public manifest quietly in the background when the main s
 Android still requires user confirmation. The existing app does not need to be uninstalled, and local settings are preserved.
 
 The APK is published as a GitHub Release asset. APKs, signing secrets, and credentials are never committed to Git history.
+
+## Anonymous installation count
+
+If a user explicitly enables anonymous statistics, the app sends one
+`installation_reported` event after a successful submission and stores only a
+local Boolean marker to avoid sending it again for that installation. The
+event contains no installation, account, advertising, Android, or hardware ID.
+
+The badge above shows the same thresholded rolling 90-day aggregate as the
+project website. Values below 25 are shown only as `<25`. It is an opted-in
+installation-report count, not a unique-person or lifetime-download count.
