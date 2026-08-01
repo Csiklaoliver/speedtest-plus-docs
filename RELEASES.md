@@ -1,5 +1,18 @@
 # Releases and updates
 
+## Speedtest+ 1.4.3
+
+This native-animation correction release:
+
+- removes the competing custom display timer that caused values to alternate between `1.00` and the configured speed
+- returns gauge movement to the app's native frame callback so the needle, fill, and number stay synchronized
+- matches the 1.3.0 opening order: Connecting, dark arc, labels and needle, `0.00`, then live readings
+- keeps one animation reset at each native download and upload phase boundary
+- ramps smoothly for five seconds and retains small natural drops after reaching the selected target
+- preserves the exact finalized download and upload values in the completed result
+- accepts custom speed values up to `73,786,976,294,838 Mbps`, the safe signed 64-bit result-model limit
+- preserves the fixed 1k gauge, themes, profiles, no-ad layout, Video test fallback, and Android 7.0+ support
+
 ## Speedtest+ 1.4.2
 
 This animation and result-consistency release:
