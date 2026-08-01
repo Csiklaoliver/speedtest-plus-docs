@@ -6,6 +6,12 @@ Speedtest+ is an unofficial Android test build for personal demonstrations and U
 
 It is not affiliated with or endorsed by Ookla.
 
+## Open source
+
+The original Speedtest+ core, configuration validation, result finalization, theme-code support, API contracts, schemas, tests, and integration documentation are available in the public [Speedtest+ source repository](https://github.com/Csiklaoliver/speedtest-plus-source).
+
+The repository intentionally excludes APK binaries, signing material, credentials, private infrastructure configuration, and Ookla's proprietary application code.
+
 ## Device support
 
 - Android 7.0 or newer
@@ -60,12 +66,6 @@ The app checks a small public manifest quietly in the background when the main s
 Android still requires user confirmation. The existing app does not need to be uninstalled, and local settings are preserved.
 
 The APK is published as a GitHub Release asset. APKs, signing secrets, and credentials are never committed to Git history.
-
-## Open source
-
-The original Speedtest+ core, configuration validation, result finalization, theme-code support, API contracts, schemas, tests, and integration documentation are available in the public [Speedtest+ source repository](https://github.com/Csiklaoliver/speedtest-plus-source).
-
-The repository intentionally excludes APK binaries, signing material, credentials, private infrastructure configuration, and Ookla's proprietary application code.
 
 ## Anonymous installation count
 
