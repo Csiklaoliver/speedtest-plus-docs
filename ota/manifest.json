@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "channel": "stable",
   "packageName": "org.zwanoo.android.speedtest",
-  "versionCode": 258541,
-  "versionName": "1.4.3",
-  "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.4.3/SpeedtestPlus.apk",
-  "sha256": "ab5b53279fabaaa9dabba34218edfbc6ff35ebc557d1e1261416608607fa9983",
+  "versionCode": 258542,
+  "versionName": "1.4.4",
+  "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.4.4/SpeedtestPlus.apk",
+  "sha256": "4595be25a2c06aae5e0814a4e62d7fe4c2d1508ad7d23646f61e81a751d5d855",
   "sizeBytes": 29855842,
-  "notes": "Eliminates the 1.00-to-target flicker by using the native Speedtest frame clock, restores the exact 1.3.0 opening order, keeps a smooth five-second climb with natural post-target drops, and expands safe custom results to the signed 64-bit result-model limit."
+  "notes": "Copies the 1.3.0 coordinator and phase-viewholder animation path exactly, moves custom state resets into the first native speed callback, and preserves smooth independent download/upload ramps with exact finalized results."
 }
