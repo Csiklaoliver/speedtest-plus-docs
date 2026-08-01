@@ -4,6 +4,13 @@
 
 Speedtest+ profiles, themes, and override settings are stored in the app's private local preferences.
 
+Anonymous statistics remain off by default. After explicit consent, the app
+may send allowlisted coarse events. It sends one installation report after a
+successful submission and keeps a local Boolean marker so that installation
+does not report again. No installation ID or other persistent identifier is
+transmitted. The public count is thresholded, retained for 90 days, and must
+not be interpreted as unique people or lifetime downloads.
+
 The update checker contacts GitHub Raw for the manifest and GitHub Releases for APK downloads. Those requests expose normal network metadata such as the device IP address and user agent. Override values, profile names, and theme settings are not added to update requests.
 
 The underlying official app has its own network behavior, privacy terms, test submission, advertising, and account features. Those systems are separate from the Speedtest+ update checker.

@@ -1,5 +1,18 @@
 # Releases and updates
 
+## Speedtest+ 1.4.5
+
+This animation and privacy-statistics release:
+
+- restores `Gauge.setTargetFillPercentage()` to the exact supplied reference implementation
+- moves the fixed-1k safety clamp into the live-speed coordinator so it cannot flatten the GO opening sweep
+- keeps the moving colored edge/circle synchronized with the dark-gray opening arc
+- sends one anonymous installation report only after explicit statistics consent
+- marks a successful report locally so an installation is not counted again after an app update
+- retries a failed report on a later initialization without keeping an event queue or identifier
+- publishes only a thresholded rolling 90-day aggregate on the website and GitHub badge
+- preserves profiles, themes, customized results, smooth live ramps, final values, and Android 7.0+ support
+
 ## Speedtest+ 1.4.4
 
 This strict 1.3.0 animation-path release:
