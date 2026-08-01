@@ -7,5 +7,12 @@
   "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.4.7/SpeedtestPlus.apk",
   "sha256": "56d16b46221481a2c96fffa821aaf2ce7637a411b86ad00287244a95b4cf4e2a",
   "sizeBytes": 29855842,
-  "notes": "Restores the original blue-leading, gray-following gauge animation and accepts every finite non-negative custom speed that fits the saved-result model, up to 73,786,976,294,838 Mbps."
+  "notes": "Restores the original blue-leading, gray-following gauge animation and accepts every finite non-negative custom speed that fits the saved-result model, up to 73,786,976,294,838 Mbps.",
+  "ios": {
+    "version": "0.1.2",
+    "download_url": "https://speedtest.oliverprojects.tech/downloads/SpeedtestPlus_iOS_0.1.2_UNSIGNED.ipa",
+    "sha256": "e132c9b362fa8c9d04125a3f22b84107599b142a953df53e536b26eae5c40631",
+    "size_bytes": 47872277,
+    "notes": "Fixes profile and keyboard crashes, snapshots each run, restores the native blue-leading gray-follower animation relationship, and binds local saved results to the completed test. This IPA is unsigned and must be signed before sideloading."
+  }
 }
