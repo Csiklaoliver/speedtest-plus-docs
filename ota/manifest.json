@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "channel": "stable",
   "packageName": "org.zwanoo.android.speedtest",
-  "versionCode": 258544,
-  "versionName": "1.4.6",
-  "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.4.6/SpeedtestPlus.apk",
-  "sha256": "baed4c7ce43d60a2a82495bc380d89d88df41d0b2da49d780aacd851a17809aa",
+  "versionCode": 258545,
+  "versionName": "1.4.7",
+  "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.4.7/SpeedtestPlus.apk",
+  "sha256": "56d16b46221481a2c96fffa821aaf2ce7637a411b86ad00287244a95b4cf4e2a",
   "sizeBytes": 29855842,
-  "notes": "Restores the exact supplied Gauge opening sweep while keeping the fixed 1k live clamp, adds the consent-gated anonymous installation count, and fixes the install-event verifier register found by the Android cold-start test."
+  "notes": "Restores the original blue-leading, gray-following gauge animation and accepts every finite non-negative custom speed that fits the saved-result model, up to 73,786,976,294,838 Mbps."
 }
