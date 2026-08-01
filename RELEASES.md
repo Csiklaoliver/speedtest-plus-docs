@@ -1,5 +1,17 @@
 # Releases and updates
 
+## Speedtest+ 1.4.7
+
+This focused animation and speed-range release:
+
+- restores both the Gauge renderer and its coordinator feed to the supplied original implementation
+- restores the original blue-leading, gray-following gauge motion
+- preserves the fixed 1k scale while allowing the displayed result to exceed the gauge
+- raises the custom-speed ceiling from 100,000 Mbps to the saved-result model limit of 73,786,976,294,838 Mbps
+- keeps finite, non-negative, ordered-range validation so invalid input cannot crash the app
+- preserves the official server-selection and connection engine; a selected-server test completed successfully during verification
+- passes an in-place Android install, cold start, v2/v3 signature verification, and 16 KB zip-alignment verification
+
 ## Speedtest+ 1.4.6
 
 This is the verified replacement for 1.4.5. It contains the same Gauge-opening
