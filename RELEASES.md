@@ -1,5 +1,20 @@
 # Releases and updates
 
+## Speedtest+ 1.4.2
+
+This animation and result-consistency release:
+
+- restores the supplied reference APK's complete Connecting-to-gauge transition
+- reveals the gauge arc, scale, needle, unit, and `0.00` in their native order
+- starts custom motion only after the opening sequence reaches its live-value handoff
+- ramps custom download and upload readings smoothly from zero
+- keeps small realistic dips after the selected target is reached instead of freezing
+- chooses one randomized value per configured range and reuses it for the live target and saved result
+- keeps equal minimum/maximum values exact
+- preserves the fixed 1k gauge while safely clamping only its fill and needle
+- retains the no-ad layout without the former empty native-ad space
+- preserves profiles, themes, active controls, saved results, and Android 7.0+ support
+
 ## Speedtest+ 1.3.3
 
 This compatibility and presentation release:
@@ -66,7 +81,7 @@ An update is accepted only when:
 - the download matches the published size and SHA-256
 - the user approves Android's installation prompt
 
-The current baseline uses version code `258537`. The next OTA build must use `258538` or greater.
+The current baseline uses version code `258540`. The next OTA build must use `258541` or greater.
 
 ## Publishing an update
 
