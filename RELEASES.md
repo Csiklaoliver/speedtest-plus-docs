@@ -1,6 +1,18 @@
 # Releases and updates
 
-## Speedtest+ 1.4.5
+## Speedtest+ 1.4.6
+
+This is the verified replacement for 1.4.5. It contains the same Gauge-opening
+and anonymous-installation-count changes, plus a corrected register type in the
+new telemetry event mapper. The fix was validated by an in-place emulator
+install, cold start, live process check, and a clean Android log without a
+`VerifyError` or fatal startup exception.
+
+## Speedtest+ 1.4.5 (superseded)
+
+Do not install this intermediate build. Android's runtime verifier rejects the
+first implementation of the new installation-event mapper. Version 1.4.6
+contains the corrected implementation.
 
 This animation and privacy-statistics release:
 

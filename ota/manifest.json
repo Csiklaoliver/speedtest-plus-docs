@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "channel": "stable",
   "packageName": "org.zwanoo.android.speedtest",
-  "versionCode": 258543,
-  "versionName": "1.4.5",
-  "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.4.5/SpeedtestPlus.apk",
-  "sha256": "b30a18308c64526ee8cf670a699055a0d2455290d7e6b6f870aeea6dc0adb0ad",
+  "versionCode": 258544,
+  "versionName": "1.4.6",
+  "apkUrl": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.4.6/SpeedtestPlus.apk",
+  "sha256": "baed4c7ce43d60a2a82495bc380d89d88df41d0b2da49d780aacd851a17809aa",
   "sizeBytes": 29855842,
-  "notes": "Restores the exact supplied Gauge opening sweep while keeping the fixed 1k live clamp, and adds a consent-gated anonymous installation report with a thresholded website and GitHub count."
+  "notes": "Restores the exact supplied Gauge opening sweep while keeping the fixed 1k live clamp, adds the consent-gated anonymous installation count, and fixes the install-event verifier register found by the Android cold-start test."
 }
