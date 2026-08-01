@@ -1,5 +1,18 @@
 # Releases and updates
 
+## Speedtest+ 1.4.4
+
+This strict 1.3.0 animation-path release:
+
+- restores the 1.3.0 gauge coordinator code exactly
+- restores the 1.3.0 download/upload phase viewholder code exactly
+- keeps custom state resets outside the GO, Connecting, and gauge-opening UI path
+- begins custom motion only from the first native live-speed callback
+- resets safely across direction changes, cancelled tests, and retests
+- preserves the original Connecting, dark-arc, labels/needle, `0.00`, and live-value order
+- keeps smooth five-second download/upload ramps and natural post-target drops
+- preserves exact finalized results, the fixed 1k gauge, themes, profiles, no-ad layout, and local result overrides
+
 ## Speedtest+ 1.4.3
 
 This native-animation correction release:
