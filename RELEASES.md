@@ -1,5 +1,20 @@
 # Releases and updates
 
+## Speedtest+ for iOS 0.1.3
+
+The iOS maintenance release:
+
+- places the info icon beside the ISP name instead of floating over the Speed screen
+- keeps the provider-row long-press shortcut and active override badge
+- removes the legacy floating control during a live upgrade
+- prevents duplicate `SpeedtestPlus.dylib` entries when an already-patched IPA is repackaged
+
+The published IPA is unsigned. Sign it with your own legitimate sideloading method before installing:
+
+- [Download SpeedtestPlus_iOS_0.1.3_UNSIGNED.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.3/SpeedtestPlus_iOS_0.1.3_UNSIGNED.ipa)
+- SHA-256: `de8f6755d4191b2b9342179ea0acdc5e4c9831a6747ee86436889dfc3b6b30c4`
+- Size: `47,871,897` bytes
+
 ## Speedtest+ 1.4.7
 
 This focused animation and speed-range release:
