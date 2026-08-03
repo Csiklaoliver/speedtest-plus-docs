@@ -1,5 +1,21 @@
 # Releases and updates
 
+## Speedtest+ 1.4.8
+
+This Android controls reliability release:
+
+- gives every Speedtest+ input a clear keyboard Done action
+- hides the software keyboard before Save, Load, Delete, Apply, Disable All, and Close
+- keeps profile and metric edits usable on keyboards that do not dismiss automatically
+- preserves the original blue-leading, gray-following gauge animation, fixed 1k gauge, ten themes, profiles, customized results, sharing, CSV, and OTA updates
+- keeps the official provider/server selection and measured network engine unchanged
+
+The signed Android APK is available here:
+
+- [Download SpeedtestPlus.apk](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.4.8/SpeedtestPlus.apk)
+- SHA-256: `ec85bd102ba4f9dbdd2cc7d5bbcdeddc7878549703e3b9f6e9148ae9ad5f0149`
+- Size: `29,855,842` bytes
+
 ## Speedtest+ for iOS 0.1.3
 
 The iOS maintenance release:
