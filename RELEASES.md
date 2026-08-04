@@ -5,6 +5,20 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ iOS 0.1.14 setup hotfix
+
+This unsigned maintenance build removes the automatic Speedtest+ first-launch
+guide and waits until native setup has finished before checking for updates.
+That keeps the stock iOS **Continue** action unobstructed. Help remains
+available through the provider-row info button, and the existing provider-row
+long press is unchanged.
+
+- [Download SpeedtestPlus-iOS-0.1.14-setup-hotfix-unsigned.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.14-setup-hotfix/SpeedtestPlus-iOS-0.1.14-setup-hotfix-unsigned.ipa)
+- SHA-256: `fb78e8f763712767c62147ae3019f0da5ff884d12840ef15c194f6a41bfb86f3`
+- Size: `47,910,302` bytes
+
+The IPA is unsigned and must be signed with a legitimate sideloading method.
+
 ## Speedtest+ iOS 0.1.13 controls and diagnostics
 
 This unsigned maintenance build keeps the native setup/privacy **Continue**
