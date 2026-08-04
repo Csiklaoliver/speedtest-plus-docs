@@ -1,5 +1,10 @@
 # Releases and updates
 
+This repository is the canonical public release destination for Speedtest+.
+Final Android and iOS artifacts, checksums, download links, and OTA manifest
+updates belong here. The source repository is reserved for source code, tests,
+build instructions, and CI artifacts.
+
 ## Speedtest+ iOS 0.1.5 ISP controls fix
 
 This follow-up iOS build fixes reports that holding the ISP row did nothing:

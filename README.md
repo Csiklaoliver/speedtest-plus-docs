@@ -66,7 +66,11 @@ The app checks a small public manifest quietly in the background when the main s
 
 Android still requires user confirmation. The existing app does not need to be uninstalled, and local settings are preserved.
 
-The APK is published as a GitHub Release asset. APKs, signing secrets, and credentials are never committed to Git history.
+The docs repository is the canonical public release page. Final APK/IPA
+artifacts, release notes, checksums, download links, and `ota/manifest.json`
+updates are published here. The source repository contains code and CI only.
+APKs, IPAs, signing secrets, and credentials are never committed to Git
+history.
 
 ## Anonymous installation count
 
