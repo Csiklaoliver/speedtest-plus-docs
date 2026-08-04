@@ -27,7 +27,7 @@ manifest remains unchanged until a matching production signature is supplied.
 
 - [Download SpeedtestPlus_1.8.9_animfix_debugsigned.apk](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/android-v1.8.9-qa/SpeedtestPlus_1.8.9_animfix_debugsigned.apk)
 - SHA-256: `A3ED7D9CBB04AC2CD0129014C044188AD5E2A6817983B3DFA115BCAF50E261BB`
-- Size: `29,859,938` bytes
+- Size: `32,571,490` bytes
 
 ## Speedtest+ iOS 0.1.10 controls rebind
 
