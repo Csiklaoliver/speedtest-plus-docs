@@ -16,6 +16,22 @@ The signed Android APK is available here:
 - SHA-256: `ec85bd102ba4f9dbdd2cc7d5bbcdeddc7878549703e3b9f6e9148ae9ad5f0149`
 - Size: `29,855,842` bytes
 
+## Speedtest+ for iOS 0.1.5
+
+This iOS controls-entry update:
+
+- keeps the ISP/provider row as the only controls entry point
+- opens controls with a long-press on the ISP/provider row
+- places the 48-point info button beside the ISP name for the guide
+- removes the floating and navigation-bar S+ controls
+- includes the alert and keyboard presentation fixes from the previous maintenance build
+
+The published IPA is unsigned. Sign it with your own legitimate sideloading method before installing:
+
+- [Download SpeedtestPlus_iOS_0.1.5_ISP_ROW_ONLY_UNSIGNED.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.5/SpeedtestPlus_iOS_0.1.5_ISP_ROW_ONLY_UNSIGNED.ipa)
+- SHA-256: `f8f1373afc76c1c9a370b3480adaad40dbec30df438c0f81bed32653d13afbeb`
+- Size: `47,874,667` bytes
+
 ## Speedtest+ for iOS 0.1.3
 
 The iOS maintenance release:
