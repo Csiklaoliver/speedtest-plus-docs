@@ -29,6 +29,25 @@ manifest remains unchanged until a matching production signature is supplied.
 - SHA-256: `A3ED7D9CBB04AC2CD0129014C044188AD5E2A6817983B3DFA115BCAF50E261BB`
 - Size: `32,571,490` bytes
 
+## Speedtest+ iOS 0.1.11 live-label fallback
+
+This unsigned maintenance build adds a guarded display fallback for transfer
+callback gaps reported on older iPhones:
+
+- keeps the configured live value moving when the native result label is laid
+  out before transfer callbacks arrive
+- stops immediately when the stage changes, overrides are disabled, or the test
+  completes
+- leaves the native transfer model, provider/server selection, and remote
+  submission untouched
+
+The published IPA is unsigned. Sign it with your own legitimate sideloading
+method before installing:
+
+- [Download SpeedtestPlus-iOS-0.1.11-live-label-fallback-unsigned.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.11-live-label-fallback/SpeedtestPlus-iOS-0.1.11-live-label-fallback-unsigned.ipa)
+- SHA-256: `B5B9ADEAE502B6AC1A9B090407FEDE9A72356D2188318B374B1D552933836D93`
+- Size: `47,894,033` bytes
+
 ## Speedtest+ iOS 0.1.10 controls rebind
 
 This unsigned maintenance build repairs the iOS provider-row rebuild path:
@@ -48,7 +67,7 @@ method before installing:
 
 ## Speedtest+ iOS 0.1.9 controls reliability
 
-This unsigned maintenance build is the current recommended iOS build:
+This unsigned maintenance build is retained for rollback; 0.1.11 is the current recommended iOS build:
 
 - rebinds the private provider-row entry point after all ISP/server subviews
   are rebuilt, including provider and location labels
