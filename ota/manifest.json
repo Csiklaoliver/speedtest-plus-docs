@@ -9,10 +9,10 @@
   "sizeBytes": 29855842,
   "notes": "Adds reliable keyboard Done handling and explicit keyboard dismissal for every Speedtest+ controls action while retaining the original blue-leading, gray-following gauge animation, all profiles/themes/results features, and the full finite non-negative custom-speed range.",
   "ios": {
-    "version": "0.1.3",
-    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.3/SpeedtestPlus_iOS_0.1.3_UNSIGNED.ipa",
-    "sha256": "de8f6755d4191b2b9342179ea0acdc5e4c9831a6747ee86436889dfc3b6b30c4",
-    "size_bytes": 47871897,
-    "notes": "Moves the iOS Speedtest+ info icon into the ISP row, removes the floating S+ control, keeps long-press access, and avoids duplicate injected libraries when packaging. This IPA is unsigned and must be signed before sideloading."
+    "version": "0.1.5",
+    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.5-isp-controls/SpeedtestPlus_iOS_0.1.5_ISP_ROW_CONTROLS_UNSIGNED.ipa",
+    "sha256": "e1b19c54a2cda786109dda0bccaa1e61ad8d546d1c498a7d20eee9b56ac3e46d",
+    "size_bytes": 47886159,
+    "notes": "Fixes ISP-row long-press reliability by rebinding the gesture after provider view rebuilds and adds an invisible provider-row fallback hotspot. This IPA is unsigned and must be signed before sideloading."
   }
 }

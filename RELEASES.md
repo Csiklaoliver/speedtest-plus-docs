@@ -1,5 +1,19 @@
 # Releases and updates
 
+## Speedtest+ iOS 0.1.5 ISP controls fix
+
+This follow-up iOS build fixes reports that holding the ISP row did nothing:
+
+- rebinds the long-press after provider views are rebuilt
+- enables interaction on the provider label and row
+- adds an invisible 48dp provider-row fallback hotspot that opens controls
+
+The published IPA is unsigned. Sign it with your own legitimate sideloading method before installing:
+
+- [Download SpeedtestPlus_iOS_0.1.5_ISP_ROW_CONTROLS_UNSIGNED.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.5-isp-controls/SpeedtestPlus_iOS_0.1.5_ISP_ROW_CONTROLS_UNSIGNED.ipa)
+- SHA-256: `e1b19c54a2cda786109dda0bccaa1e61ad8d546d1c498a7d20eee9b56ac3e46d`
+- Size: `47,886,159` bytes
+
 ## Speedtest+ 1.4.8
 
 This Android controls reliability release:
