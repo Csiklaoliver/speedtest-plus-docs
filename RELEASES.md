@@ -5,6 +5,21 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ iOS 0.1.16 setup guard hotfix
+
+This follow-up tightens the setup fix after reports that **Continue** could
+still be inert on some iPhones. While native setup is visible, every custom
+provider button, badge, identity label, theme repaint, guide, and update check
+is deferred. Once setup is complete, the provider-row info button and controls
+return normally. The privacy-safe connection health action remains available
+from controls.
+
+- [Download SpeedtestPlus-iOS-0.1.16-setup-health-hotfix-unsigned.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.16-setup-health-hotfix/SpeedtestPlus-iOS-0.1.16-setup-health-hotfix-unsigned.ipa)
+- SHA-256: `4a45ca79135d608c2434168335aed204d219fc6feb1f850ab4f4519b3ef36005`
+- Size: `47,916,733` bytes
+
+The IPA is unsigned and must be signed with a legitimate sideloading method.
+
 ## Speedtest+ iOS 0.1.15 setup and health hotfix
 
 This unsigned maintenance build waits for the native iOS setup action to finish

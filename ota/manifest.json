@@ -9,10 +9,10 @@
   "sizeBytes": 29855842,
   "notes": "Adds reliable keyboard Done handling and explicit keyboard dismissal for every Speedtest+ controls action while retaining the original blue-leading, gray-following gauge animation, all profiles/themes/results features, and the full finite non-negative custom-speed range.",
   "ios": {
-    "version": "0.1.15",
-    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.15-setup-health-hotfix/SpeedtestPlus-iOS-0.1.15-setup-health-hotfix-unsigned.ipa",
-    "sha256": "785315b84dfc4123748e864d9b77768d4051ccb5bc0151170adb9c5fef27384d",
-    "size_bytes": 47916424,
-    "notes": "Keeps native iOS setup Continue unobstructed by waiting for any visible setup action to finish before installing Speedtest+ overlays, delays update checks until setup settles, and adds a privacy-safe connection health action. Provider/server selection and remote submission remain untouched. This IPA is unsigned and must be signed before sideloading."
+    "version": "0.1.16",
+    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.16-setup-health-hotfix/SpeedtestPlus-iOS-0.1.16-setup-health-hotfix-unsigned.ipa",
+    "sha256": "4a45ca79135d608c2434168335aed204d219fc6feb1f850ab4f4519b3ef36005",
+    "size_bytes": 47916733,
+    "notes": "Keeps native iOS setup Continue unobstructed by blocking every custom provider, badge, theme, guide, and update surface while any native setup action is visible. It also adds a privacy-safe connection health action. Provider/server selection and remote submission remain untouched. This IPA is unsigned and must be signed before sideloading."
   }
 }
