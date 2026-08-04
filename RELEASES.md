@@ -5,6 +5,23 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ iOS 0.1.12 setup Continue hotfix
+
+This unsigned maintenance build fixes the first-run iOS setup regression where
+the Speedtest+ guide could appear at the same time as the native setup/privacy
+screen and intercept the native **Continue** action. The guide now waits until
+the native setup screen has finished and the provider row is available.
+
+- native setup/privacy onboarding remains in control of its own Continue button
+- the Speedtest+ guide still appears once after setup, with Open Controls and
+  Got It actions
+- provider/server selection and the native test flow are unchanged
+- the IPA is unsigned and must be signed with a legitimate sideloading method
+
+- [Download SpeedtestPlus-iOS-0.1.12-setup-continue-unsigned.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.12-setup-continue/SpeedtestPlus-iOS-0.1.12-setup-continue-unsigned.ipa)
+- SHA-256: `864b80aa147122634eb6af4d9f16b0437eb602c8f18dd5eb285e28d65b5070c5`
+- Size: `47,895,061` bytes
+
 ## Speedtest+ Android 1.8.9 runtime-verified QA refresh
 
 This is the corrected Android 1.8.9 QA package. It keeps the Discord/TikTok

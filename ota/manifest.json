@@ -9,10 +9,10 @@
   "sizeBytes": 29855842,
   "notes": "Adds reliable keyboard Done handling and explicit keyboard dismissal for every Speedtest+ controls action while retaining the original blue-leading, gray-following gauge animation, all profiles/themes/results features, and the full finite non-negative custom-speed range.",
   "ios": {
-    "version": "0.1.11",
-    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.11-live-label-fallback/SpeedtestPlus-iOS-0.1.11-live-label-fallback-unsigned.ipa",
-    "sha256": "b5b9adeae502b6ac1a9b090407fede9a72356d2188318b374b1d552933836d93",
-    "size_bytes": 47894033,
-    "notes": "Adds a guarded live-label fallback for brief transfer callback gaps while retaining the provider-row controls rebind. Native provider/server selection and remote submission remain untouched. This IPA is unsigned and must be signed before sideloading."
+    "version": "0.1.12",
+    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.12-setup-continue/SpeedtestPlus-iOS-0.1.12-setup-continue-unsigned.ipa",
+    "sha256": "864b80aa147122634eb6af4d9f16b0437eb602c8f18dd5eb285e28d65b5070c5",
+    "size_bytes": 47895061,
+    "notes": "Defers the Speedtest+ first-run guide until native iOS setup/privacy onboarding completes, keeping the native Continue action reachable. Native provider/server selection and remote submission remain untouched. This IPA is unsigned and must be signed before sideloading."
   }
 }
