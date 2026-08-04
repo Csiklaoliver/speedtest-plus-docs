@@ -9,10 +9,10 @@
   "sizeBytes": 29855842,
   "notes": "Adds reliable keyboard Done handling and explicit keyboard dismissal for every Speedtest+ controls action while retaining the original blue-leading, gray-following gauge animation, all profiles/themes/results features, and the full finite non-negative custom-speed range.",
   "ios": {
-    "version": "0.1.9",
-    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.9-controls-glass/SpeedtestPlus_iOS_0.1.9_CONTROLS_GLASS_UNSIGNED.ipa",
-    "sha256": "de4205b339c80c9357f391d156a59c4f0c8b03fc777dfc120a011ac159f50d23",
-    "size_bytes": 47891917,
-    "notes": "Rebinds the private provider-row controls after every ISP/server view rebuild, keeps the Speedtest+ info button beside the ISP row without a floating control, keeps its theme material synchronized, and adds runtime-safe Liquid Glass with older-iOS and Reduce Transparency fallbacks. This IPA is unsigned and must be signed before sideloading."
+    "version": "0.1.10",
+    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.10-controls-rebind/SpeedtestPlus_iOS_0.1.10_CONTROLS_REBIND_UNSIGNED.ipa",
+    "sha256": "731d6c089d69759d826ec272d29d80eafadbbf7808802bb4e4302e35cb78da29",
+    "size_bytes": 47892835,
+    "notes": "Rebinds the provider-row info button, long-press gesture, and invisible hotspot after iOS rebuilds the provider/server row. Native provider and server selection remain untouched. This IPA is unsigned and must be signed before sideloading."
   }
 }

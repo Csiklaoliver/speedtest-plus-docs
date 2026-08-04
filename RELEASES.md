@@ -29,7 +29,7 @@ manifest remains unchanged until a matching production signature is supplied.
 - SHA-256: `A3ED7D9CBB04AC2CD0129014C044188AD5E2A6817983B3DFA115BCAF50E261BB`
 - Size: `29,859,938` bytes
 
-## Speedtest+ iOS 0.1.9 controls rebind
+## Speedtest+ iOS 0.1.10 controls rebind
 
 This unsigned maintenance build repairs the iOS provider-row rebuild path:
 
@@ -42,7 +42,7 @@ This unsigned maintenance build repairs the iOS provider-row rebuild path:
 The published IPA is unsigned. Sign it with your own legitimate sideloading
 method before installing:
 
-- [Download SpeedtestPlus_iOS_0.1.9_CONTROLS_REBIND_UNSIGNED.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.9-controls-rebind/SpeedtestPlus_iOS_0.1.9_CONTROLS_REBIND_UNSIGNED.ipa)
+- [Download SpeedtestPlus_iOS_0.1.10_CONTROLS_REBIND_UNSIGNED.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.10-controls-rebind/SpeedtestPlus_iOS_0.1.10_CONTROLS_REBIND_UNSIGNED.ipa)
 - SHA-256: `731D6C089D69759D826EC272D29D80EAFADBBF7808802BB4E4302E35CB78DA29`
 - Size: `47,892,835` bytes
 
