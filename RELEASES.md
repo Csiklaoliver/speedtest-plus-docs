@@ -5,6 +5,35 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ iOS 0.1.15 setup and health hotfix
+
+This unsigned maintenance build waits for the native iOS setup action to finish
+before adding Speedtest+ controls, themes, or update prompts. That prevents a
+custom overlay from covering **Continue** on fresh installs and returning users.
+It also adds a bounded, privacy-safe **Check connection health** action that
+reports offline, DNS/TLS, and server-list readiness without starting a speed
+test or collecting identifiers.
+
+- [Download SpeedtestPlus-iOS-0.1.15-setup-health-hotfix-unsigned.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.15-setup-health-hotfix/SpeedtestPlus-iOS-0.1.15-setup-health-hotfix-unsigned.ipa)
+- SHA-256: `785315b84dfc4123748e864d9b77768d4051ccb5bc0151170adb9c5fef27384d`
+- Size: `47,916,424` bytes
+
+The IPA is unsigned and must be signed with a legitimate sideloading method.
+
+## Speedtest+ Android 1.8.9 connection-health QA
+
+This clean-install debug-signed QA package adds **NETWORK CHECK** beside the
+existing diagnostics action. It uses bounded local connectivity, DNS, and
+HTTPS checks, reports when the native server list is ready, and never starts a
+speed test or emits device identifiers. With Wi-Fi and mobile data disabled it
+stays on the screen and reports offline instead of crashing. It is a QA build,
+not the stable OTA APK, and cannot replace a production-signed installation.
+
+- [Download SpeedtestPlus_1.8.9_connection_health_debugsigned.apk](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/android-v1.8.9-connection-health-qa/SpeedtestPlus_1.8.9_connection_health_debugsigned.apk)
+- SHA-256: `ab0bba7bb2c153e3a3f36c2960555896ee3ac556ac0130456b43e17a93bf5ddf`
+- Size: `29,864,092` bytes
+- Static health verifier: `11/11`; server-selector verifier: `12/12`
+
 ## Speedtest+ iOS 0.1.14 setup hotfix
 
 This unsigned maintenance build removes the automatic Speedtest+ first-launch
