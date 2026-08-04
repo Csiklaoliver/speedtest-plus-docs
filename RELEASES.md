@@ -5,6 +5,27 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ iOS 0.1.9 controls reliability
+
+This unsigned maintenance build is the current recommended iOS build:
+
+- rebinds the private provider-row entry point after all ISP/server subviews
+  are rebuilt, including provider and location labels
+- keeps the info button beside the ISP row and preserves native server
+  selection; no floating S+ controller is added
+- keeps long-press and the optional password lock working when the provider
+  row is rebuilt
+- applies runtime-safe Liquid Glass to the custom controls surface and keeps
+  its theme tint synchronized, with older-iOS and Reduce Transparency
+  fallbacks
+
+The published IPA is unsigned. Sign it with your own legitimate sideloading
+method before installing:
+
+- [Download SpeedtestPlus_iOS_0.1.9_CONTROLS_GLASS_UNSIGNED.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.9-controls-glass/SpeedtestPlus_iOS_0.1.9_CONTROLS_GLASS_UNSIGNED.ipa)
+- SHA-256: `de4205b339c80c9357f391d156a59c4f0c8b03fc777dfc120a011ac159f50d23`
+- Size: `47,891,917` bytes
+
 ## Speedtest+ iOS 0.1.8 controls reliability
 
 This unsigned maintenance build contains the complete provider-row controls
