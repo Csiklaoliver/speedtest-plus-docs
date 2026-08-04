@@ -5,6 +5,22 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ iOS 0.1.6 controls hotfix
+
+This maintenance build restores the reliable Speedtest+ controls entry path:
+
+- keeps the custom info button visible when controls are password-protected so it can unlock the panel
+- rebinds the button and provider-row gestures after provider views rebuild
+- retries attachment during layout when the provider host is created late
+- uses a provider-host fallback if a private ISP label accessor changes
+- keeps the custom hotspot outside normal server-selection controls
+
+The published IPA is unsigned. Sign it with your own legitimate sideloading method before installing:
+
+- [Download SpeedtestPlus_iOS_0.1.6_CONTROLS_HOTFIX_UNSIGNED.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.6-controls-hotfix/SpeedtestPlus_iOS_0.1.6_CONTROLS_HOTFIX_UNSIGNED.ipa)
+- SHA-256: `90f8e4202747d44013287e6067172366196a278b2c593f0008ab2d60fe03bf15`
+- Size: `47,887,707` bytes
+
 ## Speedtest+ iOS 0.1.5 ISP controls fix
 
 This follow-up iOS build fixes reports that holding the ISP row did nothing:
