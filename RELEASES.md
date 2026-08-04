@@ -5,6 +5,30 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ Android 1.8.9 runtime-verified QA refresh
+
+This is the corrected Android 1.8.9 QA package. It keeps the Discord/TikTok
+fixes below and also closes two runtime defects found during emulator testing:
+
+- fixes an invalid no-argument `isOffline()` register that could crash the app
+  when the first live frame was scheduled
+- makes the gauge bridge skip its exception handler on the normal path, avoiding
+  a verifier crash before the Speed screen could remain open
+- uses ZIP flags and Android 34 signing that install correctly with native
+  libraries; the previous 36-signer QA package is retained for audit history
+
+Runtime smoke coverage reached official onboarding, the main Speed screen, the
+provider info guide, the controls dialog, and offline/demo start. Physical
+Redmi and Wi-Fi/mobile-data testing remains device-specific.
+
+This is a clean-install QA artifact, not a production OTA update. Its Android
+debug certificate is intentionally different from the stable production
+certificate, so Android will reject it as an in-place update.
+
+- [Download SpeedtestPlus_1.8.9_runtimefix_debugsigned.apk](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/android-v1.8.9-qa2/SpeedtestPlus_1.8.9_runtimefix_debugsigned.apk)
+- SHA-256: `a74ea5868bd574b5493e8a51ed089777e7d52603b2f73be296272f0f082e1c8f`
+- Size: `29,855,842` bytes
+
 ## Speedtest+ Android 1.8.9 gauge/server QA
 
 This debug-signed QA build addresses the reports collected from Discord and
