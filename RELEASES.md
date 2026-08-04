@@ -19,6 +19,24 @@ long press is unchanged.
 
 The IPA is unsigned and must be signed with a legitimate sideloading method.
 
+## Speedtest+ Android 1.8.9 Wi-Fi race-fix QA
+
+This clean-install debug-signed QA package hardens the server selector against
+late callbacks while its view is being detached during a Wi-Fi/mobile-data
+handoff. Detached scroll, item, request, and cleanup callbacks now fail closed
+instead of touching a released view. Normal server selection and the fixed 1k
+gauge remain unchanged.
+
+The package was installed and smoke-tested on an Android emulator with Wi-Fi
+and mobile data disabled during GO; the activity remained resumed with no
+`FATAL EXCEPTION` or `AndroidRuntime` crash. Physical Redmi testing is still
+recommended. Because this is debug-signed, it cannot replace the production
+APK through OTA.
+
+- [Download SpeedtestPlus_1.8.9_wifi_racefix_debugsigned.apk](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/android-v1.8.9-wifi-racefix-qa/SpeedtestPlus_1.8.9_wifi_racefix_debugsigned.apk)
+- SHA-256: `92d07ffbc37462816653b415702334f9b4d36156b0181cc1bab0b1f72d1f62af`
+- Size: `29,855,842` bytes
+
 ## Speedtest+ iOS 0.1.13 controls and diagnostics
 
 This unsigned maintenance build keeps the native setup/privacy **Continue**

@@ -29,10 +29,10 @@ The original test engine does not include 32-bit ARM or x86 native libraries, so
 - [Releases and updates](RELEASES.md)
 - [Security and privacy](SECURITY.md)
 
-The Android 1.8.9 animation/server/diagnostics fix is currently a clearly
-labelled debug-signed QA build. It is for clean-install testing only, does not
-replace the stable signed APK, and is not advertised through the stable OTA
-manifest: [Android 1.8.9 retry and diagnostics QA release](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/tag/android-v1.8.9-retry-diagnostics-qa).
+The Android 1.8.9 animation/server/diagnostics fixes are clearly labelled
+debug-signed QA builds. They are for clean-install testing only, do not replace
+the stable signed APK, and are not advertised through the stable OTA manifest:
+[Android 1.8.9 Wi-Fi race-fix QA release](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/tag/android-v1.8.9-wifi-racefix-qa).
 
 ## Quick start
 
