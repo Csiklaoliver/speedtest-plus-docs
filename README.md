@@ -23,11 +23,16 @@ The original test engine does not include 32-bit ARM or x86 native libraries, so
 ## Start here
 
 - [Download SpeedtestPlus.apk](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/latest/download/SpeedtestPlus.apk)
-- [Download the iOS 0.1.6 controls-hotfix unsigned IPA](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.6-controls-hotfix/SpeedtestPlus_iOS_0.1.6_CONTROLS_HOTFIX_UNSIGNED.ipa)
+- [Download the iOS 0.1.9 controls-rebind unsigned IPA](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.9-controls-rebind/SpeedtestPlus_iOS_0.1.9_CONTROLS_REBIND_UNSIGNED.ipa)
 - [Browse the Speedtest+ source code](https://github.com/Csiklaoliver/speedtest-plus-source)
 - [Features and usage](FEATURES.md)
 - [Releases and updates](RELEASES.md)
 - [Security and privacy](SECURITY.md)
+
+The Android 1.8.9 animation/server fix is currently a clearly labelled
+debug-signed QA build. It is for clean-install testing only, does not replace
+the stable signed APK, and is not advertised through the stable OTA manifest:
+[Android 1.8.9 QA release](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/tag/android-v1.8.9-qa).
 
 ## Quick start
 

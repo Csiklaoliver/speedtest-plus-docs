@@ -5,6 +5,47 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ Android 1.8.9 gauge/server QA
+
+This debug-signed QA build addresses the reports collected from Discord and
+TikTok:
+
+- waits for the native 900 ms gauge-opening sequence before the first custom
+  frame, so the number, blue leading arc, gray trailing bar, and needle start
+  together
+- keeps one selected target per download/upload phase instead of jumping
+  between callback values
+- refreshes server page zero after connectivity changes, including Redmi
+  Wi-Fi/mobile transitions
+- keeps the fixed 1k gauge and cancels queued custom frames when controls are
+  disabled
+
+This is a clean-install QA artifact, not a production OTA update. Its Android
+debug certificate is intentionally different from the stable 1.4.8 production
+certificate, so Android will reject it as an in-place update. The stable OTA
+manifest remains unchanged until a matching production signature is supplied.
+
+- [Download SpeedtestPlus_1.8.9_animfix_debugsigned.apk](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/android-v1.8.9-qa/SpeedtestPlus_1.8.9_animfix_debugsigned.apk)
+- SHA-256: `A3ED7D9CBB04AC2CD0129014C044188AD5E2A6817983B3DFA115BCAF50E261BB`
+- Size: `29,859,938` bytes
+
+## Speedtest+ iOS 0.1.9 controls rebind
+
+This unsigned maintenance build repairs the iOS provider-row rebuild path:
+
+- rechecks the current provider row during layout instead of trusting a stale
+  button tag
+- reattaches the info button, long-press gesture, and invisible 48 pt hotspot
+  after server/provider rows are replaced
+- keeps the native provider and server selection controls untouched
+
+The published IPA is unsigned. Sign it with your own legitimate sideloading
+method before installing:
+
+- [Download SpeedtestPlus_iOS_0.1.9_CONTROLS_REBIND_UNSIGNED.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.9-controls-rebind/SpeedtestPlus_iOS_0.1.9_CONTROLS_REBIND_UNSIGNED.ipa)
+- SHA-256: `731D6C089D69759D826EC272D29D80EAFADBBF7808802BB4E4302E35CB78DA29`
+- Size: `47,892,835` bytes
+
 ## Speedtest+ iOS 0.1.9 controls reliability
 
 This unsigned maintenance build is the current recommended iOS build:
