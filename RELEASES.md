@@ -5,6 +5,40 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ iOS 0.1.13 controls and diagnostics
+
+This unsigned maintenance build keeps the native setup/privacy **Continue**
+action reachable and repairs the custom controls entry point when the iOS
+provider row is rebuilt or private view names change:
+
+- restores a visible 48 pt info button beside the provider label
+- preserves the provider-row long press and native provider/server taps
+- adds **Copy diagnostics**, containing only platform/build/mode and local
+  scalar values; it omits addresses, account/device identifiers, exact
+  location, credentials, and ISP/server text
+- keeps remote provider selection and official result submission untouched
+
+The IPA is unsigned and must be signed with a legitimate sideloading method.
+
+- [Download SpeedtestPlus-iOS-0.1.13-controls-diagnostics-unsigned.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.13-controls-diagnostics/SpeedtestPlus-iOS-0.1.13-controls-diagnostics-unsigned.ipa)
+- SHA-256: `e7e45fe222600deef111d04351d88525f938fa54608ab9c05ced2e3d5600cee0`
+- Size: `47,905,208` bytes
+
+## Speedtest+ Android 1.8.9 retry and diagnostics QA
+
+This clean-install debug-signed QA package combines the bounded server-list
+retry for transient Wi-Fi/mobile transitions with the privacy-safe **COPY
+DIAGNOSTICS** action. It also retains the fixed 1k gauge and opening animation
+fixes from the earlier 1.8.9 QA build.
+
+Physical Redmi and real network-transition testing is still required. The
+debug certificate is intentionally different from the stable production
+certificate, so this APK cannot be used as an in-place OTA update.
+
+- [Download SpeedtestPlus_1.8.9_retry_diagnostics_debugsigned.apk](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/android-v1.8.9-retry-diagnostics-qa/SpeedtestPlus_1.8.9_retry_diagnostics_debugsigned.apk)
+- SHA-256: `9e503a23c5e9d6150b364e6b9afcef736670a396397fb5c7d2555cd4eac23d41`
+- Size: `29,839,516` bytes
+
 ## Speedtest+ iOS 0.1.12 setup Continue hotfix
 
 This unsigned maintenance build fixes the first-run iOS setup regression where

@@ -80,6 +80,14 @@ For newly completed customized tests, the final local values are reused across:
 
 Old saved tests are not changed.
 
+## Privacy-safe diagnostics
+
+Use **COPY DIAGNOSTICS** inside Speedtest+ Controls when reporting a problem.
+It copies a short local snapshot with the platform, app/OS build, mode, active
+override categories, and finalized scalar values. It deliberately excludes IP
+addresses, account or device identifiers, exact location, credentials, and
+entered ISP/server text. Review the text before sharing it in a public report.
+
 ## What remains measured
 
 The official network test, transferred data, official remote submission, and public Speedtest report remain measured and separate from the customized saved-result/history representation. Signed-in account history may store that customized representation where enabled, but it does not replace the official measured test report.

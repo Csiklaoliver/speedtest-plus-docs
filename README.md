@@ -23,16 +23,16 @@ The original test engine does not include 32-bit ARM or x86 native libraries, so
 ## Start here
 
 - [Download SpeedtestPlus.apk](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/latest/download/SpeedtestPlus.apk)
-- [Download the iOS 0.1.12 setup Continue hotfix unsigned IPA](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.12-setup-continue/SpeedtestPlus-iOS-0.1.12-setup-continue-unsigned.ipa)
+- [Download the iOS 0.1.13 controls and diagnostics unsigned IPA](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.13-controls-diagnostics/SpeedtestPlus-iOS-0.1.13-controls-diagnostics-unsigned.ipa)
 - [Browse the Speedtest+ source code](https://github.com/Csiklaoliver/speedtest-plus-source)
 - [Features and usage](FEATURES.md)
 - [Releases and updates](RELEASES.md)
 - [Security and privacy](SECURITY.md)
 
-The Android 1.8.9 animation/server fix is currently a clearly labelled
-debug-signed QA build. It is for clean-install testing only, does not replace
-the stable signed APK, and is not advertised through the stable OTA manifest:
-[Android 1.8.9 QA release](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/tag/android-v1.8.9-qa).
+The Android 1.8.9 animation/server/diagnostics fix is currently a clearly
+labelled debug-signed QA build. It is for clean-install testing only, does not
+replace the stable signed APK, and is not advertised through the stable OTA
+manifest: [Android 1.8.9 retry and diagnostics QA release](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/tag/android-v1.8.9-retry-diagnostics-qa).
 
 ## Quick start
 
@@ -53,7 +53,8 @@ Use **DISABLE ALL** to return new tests to normal measured values. Saved profile
 - Ten persistent dark themes
 - Stable one-value-per-test speed overrides on the fixed 1k gauge
 - Full GO-to-Connecting and dial-opening animation
-- Stable real 720p H.264 Video testing on Android 7–16
+- Stable real 720p H.264 Video testing on Android 7-16
+- One-tap privacy-safe diagnostics copy action for support reports
 - No banner or completed-result native ads
 - Matching local values across the test screen, saved results, history, comparison cards, sharing, and CSV
 - Provider-aware feedback questions
