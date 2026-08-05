@@ -9,10 +9,10 @@
   "sizeBytes": 29855842,
   "notes": "Adds reliable keyboard Done handling and explicit keyboard dismissal for every Speedtest+ controls action while retaining the original blue-leading, gray-following gauge animation, all profiles/themes/results features, and the full finite non-negative custom-speed range.",
   "ios": {
-    "version": "0.1.17",
-    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.17-go-results-fix/SpeedtestPlus-iOS-0.1.17-go-results-fix-unsigned.ipa",
-    "sha256": "1213a8b3ec034131126bf7007d704290ec61201e39cf9be1a32ffcbceca5bc62",
-    "size_bytes": 47925593,
-    "notes": "Fixes the iPhone controls-sheet return path so Apply and Disable All restore the native GO surface immediately. Result label selection now ignores unit and heading labels, native result setters are repaired during live runs, final custom values are repainted after native completion, and local customized saves retry until the result model is attached. Native setup, provider/server selection, and remote submission remain untouched. This IPA is unsigned and must be signed before sideloading."
+    "version": "0.1.18",
+    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.18-native-setup-continue-fix/SpeedtestPlus-iOS-0.1.18-native-setup-continue-fix-unsigned.ipa",
+    "sha256": "5312aadfe876fa6abeed1315fadb8586f3593540b72ac31ec018d23092dfabe6",
+    "size_bytes": 47930958,
+    "notes": "Fixes the iOS native optional-permission onboarding path when Continue or Next has lost its Swift target. Speedtest+ removes its custom surfaces while setup is visible, restores only the missing stock button action, and never grants or fabricates a system permission. The native consent flow, provider/server selection, and remote submission remain untouched. This IPA is unsigned and must be signed before sideloading."
   }
 }

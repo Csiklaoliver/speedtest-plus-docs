@@ -5,6 +5,25 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ iOS 0.1.18 native setup Continue fix
+
+This unsigned maintenance build addresses reports that the native optional
+location/phone onboarding page could show a Continue or Next button that did
+nothing on some iPhones:
+
+- removes Speedtest+ custom buttons, badges, hotspots, and gestures while native setup is visible
+- repairs a missing stock Swift target/action for the visible Continue or Next button
+- keeps the normal iOS consent flow intact; no permission is granted or faked
+- retries the Speedtest+ controls only after setup has completed
+
+The native provider/server selection and official remote submission remain
+untouched. The IPA is unsigned and must be signed with a legitimate sideloading
+method.
+
+- [Download SpeedtestPlus-iOS-0.1.18-native-setup-continue-fix-unsigned.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.18-native-setup-continue-fix/SpeedtestPlus-iOS-0.1.18-native-setup-continue-fix-unsigned.ipa)
+- SHA-256: `5312aadfe876fa6abeed1315fadb8586f3593540b72ac31ec018d23092dfabe6`
+- Size: `47,930,958` bytes
+
 ## Speedtest+ iOS 0.1.17 GO and results fix
 
 This unsigned maintenance build addresses reports that the controls menu could
