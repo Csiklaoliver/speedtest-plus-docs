@@ -9,10 +9,10 @@
   "sizeBytes": 29855842,
   "notes": "Adds reliable keyboard Done handling and explicit keyboard dismissal for every Speedtest+ controls action while retaining the original blue-leading, gray-following gauge animation, all profiles/themes/results features, and the full finite non-negative custom-speed range.",
   "ios": {
-    "version": "0.1.16",
-    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.16-setup-health-hotfix/SpeedtestPlus-iOS-0.1.16-setup-health-hotfix-unsigned.ipa",
-    "sha256": "4a45ca79135d608c2434168335aed204d219fc6feb1f850ab4f4519b3ef36005",
-    "size_bytes": 47916733,
-    "notes": "Keeps native iOS setup Continue unobstructed by blocking every custom provider, badge, theme, guide, and update surface while any native setup action is visible. It also adds a privacy-safe connection health action. Provider/server selection and remote submission remain untouched. This IPA is unsigned and must be signed before sideloading."
+    "version": "0.1.17",
+    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.17-go-results-fix/SpeedtestPlus-iOS-0.1.17-go-results-fix-unsigned.ipa",
+    "sha256": "1213a8b3ec034131126bf7007d704290ec61201e39cf9be1a32ffcbceca5bc62",
+    "size_bytes": 47925593,
+    "notes": "Fixes the iPhone controls-sheet return path so Apply and Disable All restore the native GO surface immediately. Result label selection now ignores unit and heading labels, native result setters are repaired during live runs, final custom values are repainted after native completion, and local customized saves retry until the result model is attached. Native setup, provider/server selection, and remote submission remain untouched. This IPA is unsigned and must be signed before sideloading."
   }
 }

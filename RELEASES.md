@@ -5,6 +5,25 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ iOS 0.1.17 GO and results fix
+
+This unsigned maintenance build addresses reports that the controls menu could
+leave the native **GO** surface unavailable and that customized results could
+revert to measured values or placeholder dots:
+
+- Apply and Disable All close the controls sheet cleanly and restore the native gauge layout
+- result label selection ignores units, headings, and placeholder labels
+- native result setters and completion repainting keep custom values visible during and after the test
+- local customized result saves retry until the native result model is attached
+- unrelated custom alerts no longer count as native setup screens
+
+Native setup, provider/server selection, and remote submission remain untouched.
+The IPA is unsigned and must be signed with a legitimate sideloading method.
+
+- [Download SpeedtestPlus-iOS-0.1.17-go-results-fix-unsigned.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.17-go-results-fix/SpeedtestPlus-iOS-0.1.17-go-results-fix-unsigned.ipa)
+- SHA-256: `1213a8b3ec034131126bf7007d704290ec61201e39cf9be1a32ffcbceca5bc62`
+- Size: `47,925,593` bytes
+
 ## Speedtest+ iOS 0.1.16 setup guard hotfix
 
 This follow-up tightens the setup fix after reports that **Continue** could

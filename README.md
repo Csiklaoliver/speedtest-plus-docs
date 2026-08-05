@@ -23,7 +23,7 @@ The original test engine does not include 32-bit ARM or x86 native libraries, so
 ## Start here
 
 - [Download SpeedtestPlus.apk](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/latest/download/SpeedtestPlus.apk)
-- [Download the iOS 0.1.16 setup and health hotfix unsigned IPA](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.16-setup-health-hotfix/SpeedtestPlus-iOS-0.1.16-setup-health-hotfix-unsigned.ipa)
+- [Download the iOS 0.1.17 GO and results fix unsigned IPA](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.17-go-results-fix/SpeedtestPlus-iOS-0.1.17-go-results-fix-unsigned.ipa)
 - [Browse the Speedtest+ source code](https://github.com/Csiklaoliver/speedtest-plus-source)
 - [Features and usage](FEATURES.md)
 - [Releases and updates](RELEASES.md)
