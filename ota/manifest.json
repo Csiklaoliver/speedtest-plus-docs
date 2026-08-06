@@ -9,10 +9,10 @@
   "sizeBytes": 29855842,
   "notes": "Adds reliable keyboard Done handling and explicit keyboard dismissal for every Speedtest+ controls action while retaining the original blue-leading, gray-following gauge animation, all profiles/themes/results features, and the full finite non-negative custom-speed range.",
   "ios": {
-    "version": "0.1.18",
-    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.18-native-setup-continue-fix/SpeedtestPlus-iOS-0.1.18-native-setup-continue-fix-unsigned.ipa",
-    "sha256": "5312aadfe876fa6abeed1315fadb8586f3593540b72ac31ec018d23092dfabe6",
-    "size_bytes": 47930958,
-    "notes": "Fixes the iOS native optional-permission onboarding path when Continue or Next has lost its Swift target. Speedtest+ removes its custom surfaces while setup is visible, restores only the missing stock button action, and never grants or fabricates a system permission. The native consent flow, provider/server selection, and remote submission remain untouched. This IPA is unsigned and must be signed before sideloading."
+    "version": "0.1.19",
+    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.19-bottom-controls/SpeedtestPlus-iOS-0.1.19-bottom-controls-unsigned.ipa",
+    "sha256": "f7c070424d9dddb3764d742f3eea802b531105cc9e1802d66b01b67245556537",
+    "size_bytes": 47936999,
+    "notes": "Restores the compact S+ i button placement from the first working 0.1.0 build, anchored 70 points above the iOS safe-area bottom. Provider-row long-press remains available as a hidden fallback, normal server selection is untouched, and native setup/permission handling stays protected. This IPA is unsigned and must be signed before sideloading."
   }
 }

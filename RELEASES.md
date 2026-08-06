@@ -5,6 +5,23 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ iOS 0.1.19 bottom S+ controls
+
+This unsigned maintenance build restores the compact `S+  i` entry point from
+the first working 0.1.0 build:
+
+- anchors the button 70 points above the bottom safe area
+- keeps the active-override badge attached to the button
+- hides the newer provider-row info button on upgrades so there is one visible S+ entry point
+- keeps provider-row long-press as a hidden fallback and leaves native server taps untouched
+- preserves the native setup/permission protection from 0.1.18
+
+The IPA is unsigned and must be signed with a legitimate sideloading method.
+
+- [Download SpeedtestPlus-iOS-0.1.19-bottom-controls-unsigned.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.19-bottom-controls/SpeedtestPlus-iOS-0.1.19-bottom-controls-unsigned.ipa)
+- SHA-256: `f7c070424d9dddb3764d742f3eea802b531105cc9e1802d66b01b67245556537`
+- Size: `47,936,999` bytes
+
 ## Speedtest+ iOS 0.1.18 native setup Continue fix
 
 This unsigned maintenance build addresses reports that the native optional
