@@ -9,10 +9,10 @@
   "sizeBytes": 29855842,
   "notes": "Adds reliable keyboard Done handling and explicit keyboard dismissal for every Speedtest+ controls action while retaining the original blue-leading, gray-following gauge animation, all profiles/themes/results features, and the full finite non-negative custom-speed range.",
   "ios": {
-    "version": "0.1.19",
-    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.19-bottom-controls/SpeedtestPlus-iOS-0.1.19-bottom-controls-unsigned.ipa",
-    "sha256": "f7c070424d9dddb3764d742f3eea802b531105cc9e1802d66b01b67245556537",
-    "size_bytes": 47936999,
-    "notes": "Restores the compact S+ i button placement from the first working 0.1.0 build, anchored 70 points above the iOS safe-area bottom. Provider-row long-press remains available as a hidden fallback, normal server selection is untouched, and native setup/permission handling stays protected. This IPA is unsigned and must be signed before sideloading."
+    "version": "0.1.20",
+    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.20-hide-gauge-controls/SpeedtestPlus-iOS-0.1.20-hide-gauge-controls-unsigned.ipa",
+    "sha256": "5893d3e8b41dd1b49841fd78ff12a1f8a81c483c0aa2167d32152edc63154dfa",
+    "size_bytes": 47937093,
+    "notes": "Hides the visible S+ i button and badge from the main gauge/100-500-1000 scale surface so they cannot overlap the test UI. Provider-row long-press remains the hidden controls entry point, while native gauge animation, server selection, and setup/permission handling stay untouched. This IPA is unsigned and must be signed before sideloading."
   }
 }

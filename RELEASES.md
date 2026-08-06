@@ -5,6 +5,20 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ iOS 0.1.20 hidden gauge controls
+
+This unsigned maintenance build hides the visible `S+  i` button and badge
+from the main gauge/100/500/1000 scale surface, keeping the test UI clean.
+Provider-row long-press remains the hidden Speedtest+ controls entry point,
+while native gauge animation, server selection, and setup/permission handling
+remain untouched.
+
+The IPA is unsigned and must be signed with a legitimate sideloading method.
+
+- [Download SpeedtestPlus-iOS-0.1.20-hide-gauge-controls-unsigned.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.20-hide-gauge-controls/SpeedtestPlus-iOS-0.1.20-hide-gauge-controls-unsigned.ipa)
+- SHA-256: `5893d3e8b41dd1b49841fd78ff12a1f8a81c483c0aa2167d32152edc63154dfa`
+- Size: `47,937,093` bytes
+
 ## Speedtest+ iOS 0.1.19 bottom S+ controls
 
 This unsigned maintenance build restores the compact `S+  i` entry point from

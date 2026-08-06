@@ -23,7 +23,7 @@ The original test engine does not include 32-bit ARM or x86 native libraries, so
 ## Start here
 
 - [Download SpeedtestPlus.apk](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/latest/download/SpeedtestPlus.apk)
-- [Download the iOS 0.1.19 bottom S+ controls unsigned IPA](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.19-bottom-controls/SpeedtestPlus-iOS-0.1.19-bottom-controls-unsigned.ipa)
+- [Download the iOS 0.1.20 hidden gauge-controls unsigned IPA](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.20-hide-gauge-controls/SpeedtestPlus-iOS-0.1.20-hide-gauge-controls-unsigned.ipa)
 - [Browse the Speedtest+ source code](https://github.com/Csiklaoliver/speedtest-plus-source)
 - [Features and usage](FEATURES.md)
 - [Releases and updates](RELEASES.md)
