@@ -549,7 +549,7 @@ This maintenance release focuses on follower-reported test-screen and compatibil
 
 ## For users
 
-Install the first build from the [latest GitHub Release](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/latest). After that:
+Install the Android stable build from the [SpeedtestPlus.apk 1.4.8 release asset](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.4.8/SpeedtestPlus.apk). Do not use GitHub's generic “latest” link: this repository also publishes iOS releases, so it can point to a release that has no Android APK. After that:
 
 1. Open **Speedtest+ Controls**.
 2. Scroll to **Updates**.
@@ -571,7 +571,10 @@ An update is accepted only when:
 - the download matches the published size and SHA-256
 - the user approves Android's installation prompt
 
-The current baseline uses version code `258540`. The next OTA build must use `258541` or greater.
+The current stable OTA baseline uses version code `258546`. The next production
+OTA build must use `258547` or greater and the same signing identity as the
+installed stable app. Debug-signed QA packages are clean-install artifacts,
+not OTA candidates.
 
 ## Publishing an update
 

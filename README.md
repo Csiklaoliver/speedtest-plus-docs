@@ -22,7 +22,7 @@ The original test engine does not include 32-bit ARM or x86 native libraries, so
 
 ## Start here
 
-- [Download SpeedtestPlus.apk](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/latest/download/SpeedtestPlus.apk)
+- [Download SpeedtestPlus.apk (Android 1.4.8 stable)](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.4.8/SpeedtestPlus.apk)
 - [Download the iOS 0.1.20 hidden gauge-controls unsigned IPA](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.20-hide-gauge-controls/SpeedtestPlus-iOS-0.1.20-hide-gauge-controls-unsigned.ipa)
 - [Browse the Speedtest+ source code](https://github.com/Csiklaoliver/speedtest-plus-source)
 - [Features and usage](FEATURES.md)
@@ -75,8 +75,14 @@ Android still requires user confirmation. The existing app does not need to be u
 The docs repository is the canonical public release page. Final APK/IPA
 artifacts, release notes, checksums, download links, and `ota/manifest.json`
 updates are published here. The source repository contains code and CI only.
-APKs, IPAs, signing secrets, and credentials are never committed to Git
-history.
+New release APKs and IPAs are published as GitHub Release assets rather than
+committed to Git history. Signing secrets and credentials are never committed
+to Git history.
+
+Android is the only in-place OTA path: it downloads a verified APK and opens
+Android's standard install confirmation. The iOS update notice opens the
+unsigned IPA download only; users must use their own legitimate sideloading
+and signing method to install it.
 
 ## Anonymous installation count
 
