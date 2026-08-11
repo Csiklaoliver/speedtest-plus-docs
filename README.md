@@ -2,7 +2,7 @@
 
 [![Opt-in installations reported](https://speedtest.oliverprojects.tech/api/badges/installations.svg)](https://speedtest.oliverprojects.tech/)
 
-Speedtest+ is an unofficial Android test build for personal demonstrations and UI testing. It adds local result controls, profiles, themes, consistent saved results, and user-confirmed app updates.
+Speedtest+ is an unofficial Android and iOS test build for personal demonstrations and UI testing. It adds local result controls, profiles, themes, consistent saved results, and user-confirmed app updates.
 
 It is not affiliated with or endorsed by Ookla.
 
@@ -22,8 +22,9 @@ The original test engine does not include 32-bit ARM or x86 native libraries, so
 
 ## Start here
 
+- [Open the combined Android 1.8.12 + iOS 0.1.25 release](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/tag/android-v1.8.12-bug-doctor)
 - [Download SpeedtestPlus.apk (Android 1.8.12 stable)](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/android-v1.8.12-bug-doctor/SpeedtestPlus.apk)
-- [Download the iOS 0.1.20 hidden gauge-controls unsigned IPA](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.20-hide-gauge-controls/SpeedtestPlus-iOS-0.1.20-hide-gauge-controls-unsigned.ipa)
+- [Download SpeedtestPlus.ipa (iOS 0.1.25 unsigned)](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/android-v1.8.12-bug-doctor/SpeedtestPlus.ipa)
 - [Browse the Speedtest+ source code](https://github.com/Csiklaoliver/speedtest-plus-source)
 - [Features and usage](FEATURES.md)
 - [Releases and updates](RELEASES.md)

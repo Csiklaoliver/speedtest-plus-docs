@@ -9,10 +9,10 @@
   "sizeBytes": 32653410,
   "notes": "Adds the consent-based AI Bug Doctor, fixes blank Discord bug-report cards, and restores the moving upload meter and number during local offline testing. AI suggestions require review and are never merged or released automatically.",
   "ios": {
-    "version": "0.1.20",
-    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.20-hide-gauge-controls/SpeedtestPlus-iOS-0.1.20-hide-gauge-controls-unsigned.ipa",
-    "sha256": "5893d3e8b41dd1b49841fd78ff12a1f8a81c483c0aa2167d32152edc63154dfa",
-    "size_bytes": 47937093,
-    "notes": "Hides the visible S+ i button and badge from the main gauge/100-500-1000 scale surface so they cannot overlap the test UI. Provider-row long-press remains the hidden controls entry point, while native gauge animation, server selection, and setup/permission handling stay untouched. This IPA is unsigned and must be signed before sideloading."
+    "version": "0.1.25",
+    "download_url": "https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/android-v1.8.12-bug-doctor/SpeedtestPlus.ipa",
+    "sha256": "e468de244d9e15cc107bc73898d97c5d21222830e9437e7e6d1f03316c95c2e0",
+    "size_bytes": 47932578,
+    "notes": "Adds the consent-based AI Bug Doctor inside Speedtest+ Controls. Users review and edit reports before sending; optional screenshots are not retained by Speedtest+. This IPA is unsigned and must be signed before sideloading."
   }
 }

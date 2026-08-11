@@ -5,6 +5,24 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ iOS 0.1.25 AI Bug Doctor
+
+This unsigned iOS update adds **AI Bug Doctor** inside Speedtest+ Controls. It
+opens the same consent-based review flow as Android, keeps the API key on the
+Speedtest+ server, and lets the user review and edit the structured report
+before sending it. Optional screenshots are not retained by Speedtest+.
+
+The iOS IPA and Android APK are now attached to the same release so users do
+not need to search separate platform releases. The IPA is unsigned and must be
+signed with a legitimate sideloading method.
+
+- [Download SpeedtestPlus.ipa](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/android-v1.8.12-bug-doctor/SpeedtestPlus.ipa)
+- [Open the combined Android and iOS release](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/tag/android-v1.8.12-bug-doctor)
+- SHA-256: `e468de244d9e15cc107bc73898d97c5d21222830e9437e7e6d1f03316c95c2e0`
+- Size: `47,932,578` bytes
+- Embedded Speedtest+ version: `0.1.25`
+- Base app bundle: `com.ookla.speedtest`
+
 ## Speedtest+ Android 1.8.12 AI Bug Doctor
 
 This production-signed Android update adds **AI BUG DOCTOR** under the private
