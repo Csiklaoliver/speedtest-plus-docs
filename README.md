@@ -22,7 +22,7 @@ The original test engine does not include 32-bit ARM or x86 native libraries, so
 
 ## Start here
 
-- [Download SpeedtestPlus.apk (Android 1.4.8 stable)](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/v1.4.8/SpeedtestPlus.apk)
+- [Download SpeedtestPlus.apk (Android 1.8.12 stable)](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/android-v1.8.12-bug-doctor/SpeedtestPlus.apk)
 - [Download the iOS 0.1.20 hidden gauge-controls unsigned IPA](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/ios-v0.1.20-hide-gauge-controls/SpeedtestPlus-iOS-0.1.20-hide-gauge-controls-unsigned.ipa)
 - [Browse the Speedtest+ source code](https://github.com/Csiklaoliver/speedtest-plus-source)
 - [Features and usage](FEATURES.md)
@@ -55,6 +55,7 @@ Use **DISABLE ALL** to return new tests to normal measured values. Saved profile
 - Full GO-to-Connecting and dial-opening animation
 - Stable real 720p H.264 Video testing on Android 7-16
 - One-tap privacy-safe diagnostics copy action for support reports
+- Consent-based AI Bug Doctor with optional screenshot analysis, editable reports, and untested draft-fix suggestions for human review
 - No banner or completed-result native ads
 - Matching local values across the test screen, saved results, history, comparison cards, sharing, and CSV
 - Provider-aware feedback questions

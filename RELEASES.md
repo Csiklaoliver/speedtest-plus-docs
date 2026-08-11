@@ -5,6 +5,25 @@ Final Android and iOS artifacts, checksums, download links, and OTA manifest
 updates belong here. The source repository is reserved for source code, tests,
 build instructions, and CI artifacts.
 
+## Speedtest+ Android 1.8.12 AI Bug Doctor
+
+This production-signed Android update adds **AI BUG DOCTOR** under the private
+Speedtest+ Hub support area. Users explicitly choose whether to send report
+text, sanitized diagnostics, and an optional screenshot for one server-side
+analysis. The screenshot is not retained by Speedtest+, and nothing is filed
+until the user reviews and approves the editable report.
+
+The AI drafts reproduction steps, likely cause, and a possible code fix for
+developer review. Its suggestions are marked untested and never merge, publish,
+or trigger OTA automatically. This update also fixes blank Discord report cards
+and restores the moving upload meter and number during local offline testing.
+
+- [Download SpeedtestPlus.apk](https://github.com/Csiklaoliver/speedtest-plus-docs/releases/download/android-v1.8.12-bug-doctor/SpeedtestPlus.apk)
+- SHA-256: `ae84d01b9ce922ff2ce778884002aa22e5a38e0b3520d8355b502bf96b3ddb5a`
+- Size: `32,653,410` bytes
+- Version code: `258552`
+- Package: `org.zwanoo.android.speedtest`
+
 ## Speedtest+ iOS 0.1.20 hidden gauge controls
 
 This unsigned maintenance build hides the visible `S+  i` button and badge
