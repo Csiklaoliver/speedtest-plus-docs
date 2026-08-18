@@ -29,6 +29,7 @@ The original test engine does not include 32-bit ARM or x86 native libraries, so
 - [Features and usage](FEATURES.md)
 - [Releases and updates](RELEASES.md)
 - [Security and privacy](SECURITY.md)
+- [Android 1.8.12 security and privacy audit](ANDROID_SECURITY_AUDIT_1.8.12.md)
 
 The Android 1.8.9 animation/server/diagnostics fixes are clearly labelled
 debug-signed QA builds. They are for clean-install testing only, do not replace
